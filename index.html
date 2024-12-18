@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Assignment 31</title>
+
+</head>
+
+<body>
+    <img src="./img/onee.jpg" id="main-product-image">
+    <div class="product-img-container">
+        <img src="./img/two.jpg" class="product-img" onclick="changeimg('./img/two.jpg')">
+        <img src="./img/three.jpg" class="product-img" onclick="changeimg('./img/three.jpg')">
+        <img src="./img/four.jpg" class="product-img" onclick="changeimg('./img/four.jpg')">
+        <img src="./img/five.jpg" class="product-img" onclick="changeimg('./img/five.jpg')">
+    </div>
+    <script>
+        function changeimg(imgname) {
+            const mainimg = document.getElementById('main-product-image');
+            mainimg.src = imgname;
+             
+
+        }
+    </script>
+</body>
+
+</html>

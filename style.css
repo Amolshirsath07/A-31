@@ -1,0 +1,25 @@
+#main-product-image {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.product-img {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product-img-container {
+    display: flex;
+    justify-content: center;
+}
